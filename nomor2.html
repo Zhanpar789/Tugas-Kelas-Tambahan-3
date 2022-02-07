@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom</title>
+</head>
+<center>
+<body>
+  <p>Jika Anda Klik On Maka Textnya Akan Berubah</p>
+
+<p id="demo">Hello World</p>
+
+<button onclick="change_text()">ON</button>
+
+<script>
+function change_text(){
+    document.getElementById("demo").innerHTML = "Hello There!";
+}
+</script>
+</body>
+</center>
+</html>

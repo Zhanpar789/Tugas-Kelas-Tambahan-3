@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom</title>
+</head>
+<body>
+  <style>
+    .warna{
+      color: blue;
+    }
+  </style>
+  <button id="text">On</button>
+  <h2 id="text2"> Tekan tombol On Agar Warnanya berubah</h2>
+
+<script>
+  const klik = document.getElementById('text')
+  const tulisan = document.getElementById('text2')
+  klik.addEventListener('click', function(){
+    tulisan.classList.toggle('warna')
+  })
+</script>  
+  
+</body>
+</html>
